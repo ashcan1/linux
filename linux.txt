@@ -54,3 +54,16 @@ It is a great choice for Linux beginners, because it uses colors to help the use
 In addition, 
 fish provides very useful auto-complete suggestions and even parses the man pages of any new installed package and suggests command completions based on them.
 
+
+How to get a list of currently running processes and resource utilization in Linux? 
+ps, top, and htop.
+
+It is important to know how to list all running processes in your Linux operating system. The knowledge will be useful when you need to manage processes.
+
+Let’s take a look once more at the three commands that you can use to list Linux processes:
+
+ps command — outputs a static view of all processes.
+top command — displays the real-time list of all running processes.
+htop command — shows the real-time result and is equipped with user-friendly features.
+
+
