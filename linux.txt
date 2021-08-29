@@ -1,3 +1,9 @@
+A shell is what's known as an interpreter. Similar to a compiler,
+ an interpreter translates the human code into machine code.
+One of the differences is that an interpreter does this one statement at a time. Meanwhile,
+a compiler scans the entire program and translates it all into machine code.
+
+
 What are the different layers of Linux?
 
 Hardware layer − Hardware consists of all peripheral devices (RAM/ HDD/ CPU etc).
@@ -7,3 +13,34 @@ Kernel − It is the core component of Operating System, interacts directly with
 Shell − An interface to kernel, hiding complexity of kernel's functions from users. The shell takes commands from the user and executes kernel's functions.
 
 Utilities − Utility programs that provide the user most of the functionalities of an operating systems.
+
+
+
+Explain briefly about three popular Linux shells?
+
+
+Bash
+Bash, or the Bourne-Again Shell, is by far the most widely used choice and it comes installed as the default shell in the most popular Linux distributions. 
+It was developed from the original UNIX Bourne shell (also known as sh) and was designed to be fully compatible with the old scripts, while adding multiple improved features.
+
+Bash is a very solid shell option, since it has been used for a long time and there is ample documentation for it. In fact, most online tutorials will assume that you’re using bash.
+
+As a result, it is recommended for most users and works great for most common system administration tasks.
+ However, if you need more powerful scripting options or other advanced tools,
+  it is time to explore some of the newer shells available
+
+
+Zsh
+Zsh or the Z-shell was designed from the onset to be interactive and incorporate some of the best features of older shells.
+ It provides unique scripting features, it is highly customizable and is easy to use,
+  with spelling correction, command completion or filename globbing.
+
+Installation on CentOS is very easy, with a single command:
+
+yum install zsh
+You can now launch the new shell, with the zsh command, you’ll notice a small change in the way the prompt looks:
+
+Keep in mind that you should configure zsh before using it in order to benefit from its most powerful features. 
+Several open-source frameworks,
+ such as oh-my-zsh, are available for even more customization options and plugins.
+
