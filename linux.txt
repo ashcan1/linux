@@ -35,6 +35,8 @@ Zsh or the Z-shell was designed from the onset to be interactive and incorporate
  It provides unique scripting features, it is highly customizable and is easy to use,
   with spelling correction, command completion or filename globbing.
 
+  
+
 Installation on CentOS is very easy, with a single command:
 
 yum install zsh
@@ -43,4 +45,12 @@ You can now launch the new shell, with the zsh command, you’ll notice a small 
 Keep in mind that you should configure zsh before using it in order to benefit from its most powerful features. 
 Several open-source frameworks,
  such as oh-my-zsh, are available for even more customization options and plugins.
+
+ Fish
+Fish, or the friendly interactive shell, 
+aims to be simpler to use and more user friendly than its competitors. 
+It is a great choice for Linux beginners, because it uses colors to help the user. For example, commands with incorrect syntax are displayed in red, while correct ones are blue.
+
+In addition, 
+fish provides very useful auto-complete suggestions and even parses the man pages of any new installed package and suggests command completions based on them.
 
