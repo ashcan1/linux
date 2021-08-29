@@ -1,0 +1,9 @@
+What are the different layers of Linux?
+
+Hardware layer − Hardware consists of all peripheral devices (RAM/ HDD/ CPU etc).
+
+Kernel − It is the core component of Operating System, interacts directly with hardware, provides low level services to upper layer components.
+
+Shell − An interface to kernel, hiding complexity of kernel's functions from users. The shell takes commands from the user and executes kernel's functions.
+
+Utilities − Utility programs that provide the user most of the functionalities of an operating systems.
