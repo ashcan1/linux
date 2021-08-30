@@ -67,3 +67,55 @@ top command — displays the real-time list of all running processes.
 htop command — shows the real-time result and is equipped with user-friendly features.
 
 
+
+
+What is a pipeline operator in Linux?
+
+pipeline is mechanism to connecting outpust of one program to input the another program synatx = |
+benefit : you dont have to write a big massive program when you existing smaller program that do the part of job 
+history | grep "install"  is a good example  
+grep is a search bar for the terminal
+https://www.youtube.com/watch?v=m2VlXWd5QoE   good examples here 
+
+Explain file permission in Linux. How to change it?
+Each file and directory in Linux has three permission levels which define how users can access it.
+ These levels are user, group and others. Each permission level has three types of permission; read, write and execute.
+  Permission type defines what a user can do with a particular object
+  r for read  w for write 
+  x for execute
+  how to change it ? 
+  u - user
+  g - group 
+  o - other people 
+
+  chmod o+w filename (we give others premission to write)
+    chmod o-w filename (we take it away the premission)
+
+    What is the process in a Linux context?
+When you are using Linux there are many things going on seemingly at once. You can run multiple applications at the same time. And there is compute going on in the background (e.g. screen updating, mouse rendering, reading and writing to files, etc). You have many more processes going on than you have CPUs to service the processes.
+
+Context switching is what allows each process to get a cut of some CPU’s time. The context of a running process is paged out, 
+and the context for the next process is paged in.
+Normally this page-in/page-out occurs with cache memory in the processor,
+ which makes it very fast. When there isn’t enough cache this will switch to RAM.
+When your need for memory exceeds RAM it will go to swap. Each type of memory is slower but larger. The operating system tries to keep as much as it can in cache and then RAM.
+
+What are Regular Expressions(regex)?
+What is the meaning of *,+,? In regular expression?
+ Allows us to check a series of characters for matches 
+ e.g it allows us to check a form field to try and macth a valid email address 
+ it must have an @ symbol at a certain postion
+ it must end en extention like .com .org ...
+ regular expressions allows us to check these type of things 
+
+
+
+
+
+
+
+
+
+
+
+
