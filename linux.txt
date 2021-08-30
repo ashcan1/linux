@@ -121,7 +121,15 @@ What is the meaning of *,+,? In regular expression?
  In Unix, the names of daemons conventionally end in "d". Some examples include inetd , httpd , nfsd , sshd , named , and lpd 
  https://itsfoss.com/linux-daemons/
 
+ Explain different file system types in Linux?
+ https://www.javatpoint.com/linux-file-system
+ RAM is used to store computer programs and data that CPU needs in real time. ... RAM data is volatile and is erased once computer is switched off. HDD, hard disk has permanent storage and it is used to store user specific data and operating system files.
 
+) What is the difference between init.d and systemd?
+https://www.tecmint.com/systemd-replaces-init-in-linux/
+
+Name 10 of the most useful CLI commands?
+cd /ls/mkdir/touch /man/whatis/ditto/clear/top/sudo/ rm -R/cp
 
 
 
