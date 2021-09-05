@@ -131,6 +131,20 @@ https://www.tecmint.com/systemd-replaces-init-in-linux/
 Name 10 of the most useful CLI commands?
 cd /ls/mkdir/touch /man/whatis/ditto/clear/top/sudo/ rm -R/cp
 
+What is the difference between MariaDB and MySQL?
+MariaDB is fully GPL licensed while MySQL takes a dual-license approach.
+Each handle thread pools in a different way.
+MariaDB supports a lot of different storage engines.
+In many scenarios, MariaDB offers improved performance.
+https://kinsta.com/blog/mariadb-vs-mysql/
+
+What is the difference between SQL Lite and PostgreSQL?
+
+https://hevodata.com/learn/sqlite-vs-postgresql/
+
+
+
+
 
 
 
